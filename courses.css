@@ -1,0 +1,175 @@
+
+@font-face {
+    font-family: Ubuntu;
+    src: url('../9-css/fonts/Ubuntu-Regular.ttf');
+}
+*{
+    font-family: Ubuntu;
+}
+html, body {
+	height: 80%;
+       
+}
+
+body {
+	margin: 5px;
+	padding: 0px;
+	background: #000000;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+        background: #F0F0F0;
+}
+
+
+p, ol, ul {
+	margin-top: 0px;
+}
+
+p {
+	line-height: 180%;
+}
+
+
+
+a {
+	color: #39C2F0;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a img {
+	border: none;
+}
+
+
+img.alignleft {
+	float: left;
+}
+
+img.alignright {
+	float: right;
+}
+
+img.aligncenter {
+	margin: 0px auto;
+}
+
+/** WRAPPER */
+
+#wrapper {
+	width: 1100px;
+	padding: 0px 50px;
+	background: #FFFFFF;
+        
+}
+
+.container {
+	width: 1200px;
+	margin: 0px auto;
+}
+
+
+/** HEADER */
+
+#header {
+	overflow: hidden;
+	padding: 30px 0px;
+}
+
+/** LOGO */
+
+#logo {
+	float: left;
+	width: 300px;
+	margin: 0;
+	padding: 0;
+}
+#logo h1 a{
+    /* font-size: 3em; */
+    color: blue;
+    text-decoration: none;
+}
+
+#logo h1 {
+	
+	font-size: 3em;
+    color: blue;
+}
+#logo h1 p{
+	color: blue;
+	font-weight: lighter;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+/** MENU */
+
+#menu {
+	float: right;
+	width: 700px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#menu ul {
+	float: right;
+	margin: 0;
+	padding: 60px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+	padding: 0px 0px 0px 0px;
+        }
+
+#menu a {
+	display: block;
+	margin-right: 1px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+	font-weight: 300;
+	color: #585858;
+	border: none;
+}
+
+#menu .current_page_item a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#menu .current_page_item a {
+	background: #2AA8D2;
+	border-radius: 5px;
+}
+#totop{
+	
+	text-align: center;
+	font-size: 12;
+}
+#totop a{
+	text-decoration: none;
+}
+
+.container #footer{
+background-color: rgb(31, 29, 29);
+color: white;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 11pt;
+}
+.container #footer a{
+	text-decoration: none;
+}
+footer{
+    width:100%;
+    margin:5px auto;
+    border: 3px solid transparent;border-radius: 30px;	
+}
